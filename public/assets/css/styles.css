@@ -15,7 +15,9 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
+.navbar-brand{
+  font-size: xx-large;
+}
 .note-textarea,
 .note-title {
   color: #000000;
@@ -28,6 +30,9 @@ body {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
+}
+.note-textarea {
+ font-size: larger;
 }
 
 .note-title {
@@ -75,4 +80,7 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+}
+.container-fluid {
+ font-size: large;
 }
